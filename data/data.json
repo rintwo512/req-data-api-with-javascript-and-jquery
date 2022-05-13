@@ -1,0 +1,42 @@
+[
+    {
+        "name" : "Ronald G. Kim",
+        "email" : "RonaldGKim@armyspy.com",
+        "age" : 19,
+        "address" : "Lynn Ogden Lane",
+        "img" : "https://www.fakenamegenerator.com/images/sil-male.png",
+        "id" : 1
+    },
+    {
+        "name" : "Tara C. Hickman",
+        "email" : "TaraCHickman@teleworm.us",
+        "age" : 21,
+        "address" : "Cedar Street",
+        "img" : "https://www.fakenamegenerator.com/images/sil-female.png",
+        "id" : 2
+    },
+    {
+        "name" : "Marilyn P. Boley",
+        "email" : "MarilynPBoley@jourrapide.com",
+        "age" : 27,
+        "address" : "Cliffside Drive",
+        "img" : "https://www.fakenamegenerator.com/images/sil-male.png",
+        "id" : 3
+    },
+    {
+        "name" : "Joseph C. Fraser",
+        "email" : "Joseph@jourrapide.com",
+        "age" : 34,
+        "address" : "Shinn Avenue",
+        "img" : "https://www.fakenamegenerator.com/images/sil-male.png",
+        "id" : 4
+    },
+    {
+        "name" : "Wiktor Gustavsson",
+        "email" : "WiktorGustavsson@rhyta.com",
+        "age" : 25,
+        "address" : "Hill Street",
+        "img" : "https://www.fakenamegenerator.com/images/sil-male.png",
+        "id" : 5
+    }
+]
