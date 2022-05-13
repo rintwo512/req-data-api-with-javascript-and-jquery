@@ -136,36 +136,36 @@ function updateUi(datas){
 
 
 //* Request data menggunakan jquery
-// $.ajax({
-//     url : 'http://myapp.test/api/airco',
-//     success : res => {
-//         let card = '';
-//         res.forEach(e => {
-//             card += funcCard(e);
-//         });
-//         $('.card-cont').html(card);
-//         const btnDet = $('.btn-details');
-//         for(btnD of btnDet){
-//             $(btnD).on('click', function() {
-//                 const dataId = $(this).data('id');
-//                 $.ajax({
-//                     url: 'http://myapp.test/api/airco/detail/' + dataId,
-//                     success : r => {
-//                         let cardDet = '';
-//                         cardDet += updateDetail(r);
-//                         $('.modal-body').html(cardDet);
-//                     },
-//                     error : e => {
-//                         alert(e.statusText)
-//                     }
-//                 })
-//             })
-//         }
-//     },
-//     error : e => {
-//         alert(e.statusText);
-//     }
-// })
+$.ajax({
+    url : 'http://myapp.test/api/airco',
+    success : res => {
+        let card = '';
+        res.forEach(e => {
+            card += funcCard(e);
+        });
+        $('.card-cont').html(card);
+        const btnDet = $('.btn-details');
+        for(btnD of btnDet){
+            $(btnD).on('click', function() {
+                const dataId = $(this).data('id');
+                $.ajax({
+                    url: 'http://myapp.test/api/airco/detail/' + dataId,
+                    success : r => {
+                        let cardDet = '';
+                        cardDet += updateDetail(r);
+                        $('.modal-body').html(cardDet);
+                    },
+                    error : e => {
+                        alert(e.statusText)
+                    }
+                })
+            })
+        }
+    },
+    error : e => {
+        alert(e.statusText);
+    }
+})
 
 
 function funcCard(m){
